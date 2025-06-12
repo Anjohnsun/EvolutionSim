@@ -5,10 +5,10 @@ public class LightSourceDto
     public int X { get; }
     public int Y { get; }
     public int Radius { get; }
-    public LightSourceDto(int x, int y)
+    public LightSourceDto(int x, int y, int radius)
     {
         X = x;
         Y = y;
-        Radius = 10;
+        Radius = radius;
     }
 }
